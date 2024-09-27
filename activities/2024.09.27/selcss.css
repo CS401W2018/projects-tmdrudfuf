@@ -10,3 +10,26 @@ nav {
 header {
     color: skyblue;
 }
+
+#first {
+    color: yellow;
+    how to use ID tag
+}
+
+.second {
+    color: green;
+    how to sue Class
+}
+
+.red {
+    color: red;
+}
+.bigger {
+    font-size:larger;
+}
+.smaller {
+    font-size: smaller;
+}
+.brown{
+    color: brown;
+}
