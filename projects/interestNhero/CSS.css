@@ -1,0 +1,54 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: medium;    
+}
+#emphasize {
+    color: chartreuse;
+}
+.red{
+    color: red;
+}
+
+.black{
+    color:black;
+}
+
+.white{
+    color: white;
+}
+
+.blue {
+    color: blue;
+}
+
+.purple{
+    color: purple;
+}
+
+.bigger {
+    font-size: larger;
+}
+
+.smaller {
+    font-size: smaller;
+}
+
+.font_emphasize {
+    font-family:'Courier New', Courier, monospace
+}
+
+.bold{
+    font-stretch: wider;
+}
+.background_gray{
+    background-color: gray;
+}
+
+.background_black{
+    background-color: black;
+}
+
+.background_lightyellow{
+    background-color: lightyellow;
+}
