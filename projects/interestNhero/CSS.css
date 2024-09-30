@@ -1,7 +1,8 @@
 body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
+    color: rgb(97,81,146);
     font-size: medium;    
+    background-color: rgb(136,124,175);
 }
 #emphasize {
     color: chartreuse;
@@ -24,6 +25,19 @@ body{
 
 .purple{
     color: purple;
+}
+.yellow{
+    color: yellow;
+}
+
+.emp{
+    color: rgb(38,23,88);
+}
+.back_ky{
+    color: rgb(136,124,175);
+}
+.normalColor{
+    color: rgb(97,81,146);
 }
 
 .bigger {
