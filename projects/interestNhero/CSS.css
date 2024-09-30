@@ -52,3 +52,6 @@ body{
 .background_lightyellow{
     background-color: lightyellow;
 }
+.emphasize {
+    font-style: italic;
+}
