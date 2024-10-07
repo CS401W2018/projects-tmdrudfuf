@@ -1,0 +1,37 @@
+body{
+    background-image: url(globe.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-weight: bold;
+    }
+.flag{
+    background: url(taegukgee.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+ul{
+    list-style-image: url(bullet.ico);
+}
+
+.DarkBlue {
+    color: darkblue;
+}
+
+.Bold {
+    font-weight: bolder;
+}
+.size_60 {
+    font-size: 60px;   
+}
+.size_50 {
+    font-size: 50px;
+}
+.current{
+    color: red;
+}
+.margin{
+    margin-bottom: 15px;
+}
