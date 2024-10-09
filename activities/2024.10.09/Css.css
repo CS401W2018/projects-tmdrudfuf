@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: gray;
+    width: 300px;
+    margin: 30px 20px;
+    padding: 50px 100px 100px 50px;
+}
+header h1{
+    margin-bottom: 0;
+    border: 3px solid red;
+}
+nav{
+    background-color: green;
+    height: 200px;
+    margin-top: 40px;
+}
+#wrapper{
+    width: 600px;
+    margin: 0 auto;
+}
+main{
+    background-color: blue;
+    margin: auto;
+    height: 5in;
+    padding: 50px ;
+}
