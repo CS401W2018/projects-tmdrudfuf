@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: aquamarine;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "lside main rside"
+        "footer footer footer";
+}
+.item{
+    background-color: aqua;
+    border: thin solid black;
+    text-align: center;
+}
+.itemA {
+    grid-area: lside;
+}
+.itemB {
+    grid-area: rside;
+}
+.itemC {
+    grid-area: main;
+}
+.itemD {
+    grid-area: header;
+}
+.itemE {
+    grid-area: footer;
+}
+.itemF {
+    grid-area: header;
+}
