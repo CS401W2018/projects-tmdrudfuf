@@ -1,0 +1,51 @@
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: deepskyblue;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    margin-top: 0px;
+}
+nav a{
+    display: block;
+    width: 20%;
+    border: thin solid black;
+    text-align: center;
+}
+nav a:hover{
+    background-color: antiquewhite;
+}
+main{
+    display: flex;
+}
+aside{
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+}
+figure{
+    border: thin solid black;
+
+}
+figcaption{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-around;
+}
+footer{
+    padding: 20px;
+}
+.footercontainer{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr 4fr;
+}
