@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.flower{
+    border: thin solid black;
+    width: 200px;
+}
+.flower img{
+    width: 100%;
+}
+header{
+    background-color: bisque;
+    color: azure;
+}
+header h1{
+    margin: 0;
+}
+nav{
+    background-color:aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav a{
+    display: block;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: navy;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card{
+    border: thin solid black;
+    width: 200px;
+    box-shadow: 3px 3px 5px gray;
+    margin: 20px;
+
+    
+}
+.card img{
+    width: 100%;
+}
