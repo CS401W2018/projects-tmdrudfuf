@@ -1,0 +1,46 @@
+header{
+    display: none;
+}
+nav {
+    display: none;
+}
+nav a {
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    margin-right: auto;
+}
+.family {
+    width: 200px;
+}
+.family img {
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-around;
+}
+.container h2{
+    text-align: center;
+    margin-bottom: 20px;
+    order: -1;
+}
+figure {
+    width: 200px;
+    box-shadow: 5px 5px 5px gray;
+}
+figure img{
+    width: 100%;
+}
+footer {
+    display: none;
+}
