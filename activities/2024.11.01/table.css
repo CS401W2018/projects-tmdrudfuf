@@ -1,0 +1,27 @@
+.schedule{
+    margin: 5px auto;
+    /* border: thin solid black; */
+    border-spacing:  0cap;
+    border-collapse: collapse;
+}
+/* 
+.schedule td, .schedule th{
+    border: thin solid black;
+    padding: 10px;
+} */
+
+/* .schedule th{
+    border: thin solid black;
+} */
+.schedule thead{
+    background-color: blue;
+    color: white;
+}
+.schedule tfoot{
+    background-color: blue;
+    color: white;
+}
+.schedule tbody tr:nth-child(odd){
+    background-color: #ccc;
+
+}
