@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Main.css">
+</head>
+<body>
+    
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Web Design</h1>
+    </header>
+    <main>
+        <form action="processing.html" method="post" id="myForm">
+            <fieldset>
+                <legend> Sign up</legend>
+                <div class="form-row">
+                    <label for="fname"> First Name: </label>
+                    <input id = "fname" type="text" name="first" value="Ky">
+                </div>
+                <div class="form-row">
+                    <label for="lname">Last Name:</label> 
+                    <input id= "lname" type="text" name="last" placeholder="Last Name" require>
+                </div>
+                <div class="form-row">
+                    <label for="pass">Password: </label>
+                    <input id="pass" type="password" name="pass" required>
+                </div>
+                <div class="check-row">
+                    <div class="spacer"></div>
+                    <label>
+                        <input type="checkbox" checked> remember me?
+                    </label>
+                </div>
+                <div class="form-row">
+                    <label for="state">State </label>
+                    <select name="state" id="state">
+                        <option value="blank"></option>
+                        <option value="CA">Califonia</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="UT">Utah</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div class="check-row">
+                    <div class="spacer"></div>
+                    class:
+                    <input type="radio" name="grade" value="Freshman"> Freshman<br>
+                    <input type="radio" name="grade" value="Sophmore"> Sophmore<br>
+                    <input type="radio" name="grade" value="Junior"> Junior<br>
+                    <input type="radio" name="grade" value="Senior"> Senior<br>
+                </div>
+                <div class="form-row">    
+                    <div class="spacer"></div>
+                    <input type="submit">
+                </div>
+             </fieldset>
+
+        </form>
+
+        <h2>Engagement</h2>
+        <ul>
+            <li>What is JavaScript? How did it get its name? - this is the programming language that work on the webpage, and the name is came from Java</li>
+            <li>What are the two ways you can run JavaScript? - run in DOM, run in Dode.js</li>
+            <li>What was the most popular front-end js library? - J query </li>
+            <li>What is the most popular front-end js library today? - React</li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ky Seung</p>
+    </footer>
+    <script>
+        document.getElementById('myForm').addEventListener('submit',function(event){
+            event.preventDefault();
+            const fname = document.getElementById('fname').value;
+            const lname = document.getElementById('lname').value;
+            const formdata = {
+                firstName : fname,
+                lastName : lname
+            }
+            console.log(formdata);
+            alert("You submitted the form!")
+        })
+    </script>
+</body>
+</html>
