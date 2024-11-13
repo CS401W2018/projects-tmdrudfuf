@@ -103,6 +103,10 @@
                 firstName : fname,
                 lastName : lname
             }
+            if (!fName || !lname){
+                alert("it is wrong!")
+                return;
+            }
             console.log(formdata);
             alert("You submitted the form!")
         })
