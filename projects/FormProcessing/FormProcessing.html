@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=700">
+    <title>Document</title>
+    <link rel="stylesheet" href="Main.css">
+</head>
+<body>
+    <header>
+        <h1>form</h1>
+    </header>
+        <main>
+            <div id="message"></div>
+            <form action="processing.html" method="post" id="myForm">
+                <fieldset>
+                <legend>information</legend>
+
+                <div class="form-row">
+                    <label for="UserName">User Name: </label>
+                    <input type="text" name="UserName" id="UserName" placeholder="User Name">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email Address: </label>
+                    <input type="email" name="Email" id="email" placeholder="Email Address">
+                </div>
+                <div class="form-row">
+                    <label for="Password">Password: </label>
+                    <input type="password" name="password" id="Password">
+                </div>
+                <div class="form-row">
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" id="age">
+                </div>
+                <div class="form-row">
+                    <label for="checkbox">Are you human?</label>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                </div>
+                <div class="check-row">
+                    <div class="spacer">Status: </div>
+                    <label ><input type="radio" name="Status" value="Students">Student</label>
+                    <label ><input type="radio" name="Status" value="Professors">Professor</label>
+                </div>
+                <div class="form-row">
+                    <label for="school">School: </label>
+                    <select name="School" id="school">
+                        <option value="BYU">BYU</option>
+                        <option value="BYUH" selected>BYUH</option>
+                        <option value="BYUI">BYUI</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="Birthdate">Birthdate: </label>
+                    <input type="date" name="Birthdate" id="Birthdate">
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="spacer"></div>
+                    <input type="submit" value="Sign Up!">
+                </div>
+                </fieldset>
+            </form>    
+        </main>
+    <footer>
+        &copy; 2024 Ky Seung
+    </footer>
+    <script src="FormProcessing.js"></script>
+</body>
+</html>
