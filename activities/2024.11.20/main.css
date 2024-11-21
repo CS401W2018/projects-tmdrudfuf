@@ -1,0 +1,27 @@
+#cooking {
+    width: 350px;
+    margin: 30px 50px;
+    border: thin solid black;
+    box-shadow: 5px 5px 5px gray;
+    transform: rotate(-8deg);
+}
+#cooking img {
+    width: 100%;
+}
+
+.btn {
+    display: block;
+    padding: 10px;
+    color: blue;
+    background-color: aquamarine;
+    width: 110px;
+    text-align: center;
+    text-decoration: none;
+    transition-property: background-color;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s;
+}
+.btn:hover {
+    background-color: black;
+}
