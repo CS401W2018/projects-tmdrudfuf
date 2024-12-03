@@ -33,9 +33,10 @@ nav a {
         font-size: 20px;
         width: 100%;
     }
+    .formContents{
+        flex-direction: column;
+    }
 }
-
-
 image {
     display: flex;
     flex-flow: row wrap;
@@ -64,12 +65,42 @@ table tbody tr:nth-child(even){
 table tbody tr:nth-child(odd){
     text-align: center;
 }
-
 .bodyFood {
     text-align: center;
 }
-
-li {
-  list-style-position: inside;  
+li::before{
+    content: "";
+    position: absolute;
 }
-
+li {
+    margin-left: 100px;
+}
+/* from here, this is for form */
+legend {
+    border: thin solid black;
+    background-color: aquamarine;
+    padding: 10px;
+    color: white;
+}
+fieldset {
+    box-shadow: 3px 3px 3px black;
+    background-color: aqua;
+}
+.formContents {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: larger;
+}
+.formContents label {
+    width: 150px;
+    text-align: right;
+}
+.formContents input {
+    padding: 5px;
+    border-radius: 7px;
+    background-color: white;
+}
+.formContents input:focus {
+    background-color: lightgoldenrodyellow;
+}
